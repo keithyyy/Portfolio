@@ -4,7 +4,7 @@
 
 .profile-spacing {
     margin-top: 3rem;
-    padding-left: 17px;
+    /* padding-left: 17px; */
     margin-left: auto;
     margin-right: auto
 }
@@ -23,13 +23,13 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    width: 70%
+    width: 60%
 }
 
 .skill-emoji {
     display: block;
     margin: auto;
-    width: 20%
+    width: 13%
 }
 
 .skill-left {
@@ -40,4 +40,81 @@
 .skill-right {
     text-align: center;
     margin-top: 1.5rem;
+}
+
+.projects-section-header {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.project-wrapper {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 70px auto;
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    align-items: stretch;
+    box-shadow: 0 0 3px 5px rgba(0,0,0,0.03);
+}
+
+
+.project-copy {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%
+}
+
+.project-image {
+    max-width: 100%;
+    box-shadow: 2px 2px 8px;
+}
+
+.project-description {
+    max-width: 90%;
+    margin-bottom: 2rem;
+}
+
+.button-holder {
+    margin-bottom: 1.5rem;
+}
+
+.githubBtn {
+    margin-right: 1rem;
+    background-color: transparent;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    border: 6px solid blue;
+    width: 150px
+}
+.deployBtn {
+    margin-right: 1rem;
+    background-color: transparent;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    border: 6px solid lightblue;
+    width: 150px
+}
+
+.deployBtn:hover {
+    background-color: lightblue;
+    color: white
+}
+
+.tech-logo {
+margin-right: 5px;
+
+}
+
+.logos {
+    margin-bottom: 3rem
 }
