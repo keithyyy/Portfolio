@@ -10,7 +10,6 @@ function App() {
         <Navbar />
         <Route exact path='/' component={Portfolio} />
         <Route exact path='/about' component={About} />
-
       </div>
     </Router>
   );
