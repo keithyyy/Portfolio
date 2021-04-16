@@ -8,10 +8,10 @@ import { MdMail } from 'react-icons/md'
 
 const AboutMe = () => {
     return (
-        <div className="content-wrap">
-            <div className="row">
+        <div className="about-wrap">
+            {/* <div className="row">
                 <h1 className="about-jumbo">About Me</h1>
-            </div>
+            </div> */}
             <div className="row">
                 <div className="col-md-6">
                     <img className="keith-headshot" src={HeadShot} />
@@ -29,14 +29,31 @@ const AboutMe = () => {
                         
                         </div>  
                         <div className="row">
-                            <div className="col-12">
-                            <div className="text-center">
-                                <button className="about-github"><SiGithub className="github-icon" size={24}/><span className="btn-text">View Repo</span></button>
-                                <button className="about-mail"><MdMail className="mail-icon" size={24}/><span className="btn-text">Email</span></button>
-                                <button className="about-resume"><FaFilePdf className="resume-icon" size={24}/><span className="btn-text">Resume</span></button>
+                            <div className="col-4">
+                                <div className="text-center pb-4 mt-4">
+                                    <form action="https://github.com/keithyyy/" method="get" target="_blank" style={{width: "30%"}}>
+                                        <button className="about-github"><SiGithub className="github-icon" size={24}/><span className="btn-text">View Repo</span></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div className="col-4">
+                                <div className="text-center pb-4 mt-4"> 
+                                    <form action="mailto:keith.crooc@gmail.com" target="_blank" style={{width: "30%"}}>
+                                        <button className="about-mail"><MdMail className="mail-icon" size={24}/><span className="btn-text">Email</span></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div className="col-4">
+
+                                <div className="text-center pb-4 mt-4">
+                                    <form action="../KeithCrooc-WebDevResume.pdf" target="_blank" style={{width: "30%"}}>
+
+                                    <button className="about-resume"><FaFilePdf className="resume-icon" size={24}/><span className="btn-text">Resume</span></button>
+                                    </form>
+                                </div>
                             </div>
 
-                            </div>
+                            
                             
                         </div>
                     </div>

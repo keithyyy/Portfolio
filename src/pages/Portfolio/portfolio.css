@@ -11,12 +11,21 @@
     
 }
 
+.navbar-brand:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.10em);
+}
+
 .nav-link {
     font-family: 'Heebo', sans-serif;
     font-size: 20px;
     color: #094074
 }
 
+.nav-link:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.10em);
+}
 
 .name {
     color: #70E0FF
@@ -169,6 +178,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500
 }
+.githubBtn:hover {   
+    background-color: #094074;
+    color: white
+}
+
 .deployBtn {
     margin-right: 1rem;
     background-color: transparent;

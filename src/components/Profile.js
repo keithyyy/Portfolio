@@ -30,7 +30,7 @@ const Profile = () => {
 
             <div className="row">
                 <div className="col-md-12">
-                    <h3 style={{marginBottom: "2rem", marginTop: "2rem"}}>I'm a...</h3>
+                    <h3 style={{marginBottom: "2rem", marginTop: "2rem", fontFamily: "Heebo", fontSize: "50px"}}>I'm a...</h3>
                 </div>
             </div>
             <Interests />
