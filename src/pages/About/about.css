@@ -1,0 +1,93 @@
+.about-jumbo {
+    margin-bottom: 3rem;
+    padding-left: 15px;
+}
+
+.keith-headshot {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 93%;
+    border-radius: 10px;
+    box-shadow: 3px 0 5px;
+    
+}
+
+.about-github {
+    margin-right: 1rem;
+    background-color: transparent;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    border: 4px solid #28a745;
+    width: 150px;
+    color: #28a745;
+    
+}
+
+.about-github:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+
+.github-icon {
+    margin-right: 6px;
+    color: #28a745
+}
+
+
+
+.about-mail {
+    margin-right: 1rem;
+    background-color: transparent;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    border: 4px solid #63D1F4;
+    width: 150px;
+    color: #63D1F4;
+    
+}
+
+.about-mail:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.mail-icon {
+    margin-right: 6px;
+    color: #63D1F4
+}
+
+.about-resume {
+    margin-right: 1rem;
+    background-color: transparent;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    border: 4px solid #DC143C;
+    width: 150px;
+    color: #DC143C;
+    
+}
+
+.about-resume:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.resume-icon {
+    margin-right: 6px;
+    color: #DC143C	
+}
+
+.button-container {
+    padding-bottom: 30px;
+    text-align: center;
+}
