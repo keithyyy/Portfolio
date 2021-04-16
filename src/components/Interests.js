@@ -9,7 +9,7 @@ const Interests = () => {
             <div className="row">
                 <div className="col-6">
                     <img className="skill-emoji" src={LaptopIcon} />
-                    <h4 className="skill-left">Full-Stack Developer</h4>
+                    <h4 className="skill-left">( Full-Stack Developer )</h4>
                 </div>
                 <div className="col-6">
                     <img className="skill-emoji" src={MegaphoneIcon} />

@@ -1,3 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
+
+.navbar-brand {
+    font-family: 'Heebo', sans-serif;
+    color: #3C6997;   
+    font-size: 35px
+    
+}
+
+.nav-link {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    color: #094074
+}
+
+
+.name {
+    color: #70E0FF
+}
+
+
+
 .content-wrap {
     padding-top: 3rem;
 }
@@ -10,11 +36,13 @@
 }
 
 .greeting {
+    font-family: 'Heebo', sans-serif;
     font-size: 5.5vw;
-    margin-bottom: 2rem
+    margin-bottom: 1.7rem
 }
 
 .about-me {
+    font-family: 'Montserrat', sans-serif;
     color: black
 }
 
@@ -30,17 +58,23 @@
 .skill-emoji {
     display: block;
     margin: auto;
-    width: 13%
+    width: 20%
 }
 
 .skill-left {
+    font-family: 'VT323', monospace;
     text-align: center;
     margin-top: 1.5rem;
+    font-size: 50px;
+    
 }
 
 .skill-right {
+    font-family: 'Averia Serif Libre', cursive;
+
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
+    font-size: 40px
 }
 
 
@@ -59,7 +93,9 @@
 }
 
 .skills-title {
-    
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    color: #ff9e1f
 }
 
 .projects-section-header {
@@ -81,6 +117,10 @@
     box-shadow: 0 0 3px 5px rgba(0,0,0,0.03);
 }
 
+.project-title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 45px
+}
 
 .project-copy {
     margin: auto;
@@ -91,13 +131,26 @@
 }
 
 .project-image {
-    max-width: 100%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
     box-shadow: 2px 2px 8px;
 }
 
 .project-description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    margin-top: 1.5rem;
     max-width: 90%;
     margin-bottom: 2rem;
+}
+
+.technologies h6 {
+    margin-top: 2rem;
+    text-decoration: underline;
+    text-decoration-style: underline #FFE15C;
 }
 
 .button-holder {
@@ -111,8 +164,10 @@
     padding-bottom: 0.7rem;
     padding-right: 0.9rem;
     padding-left: 0.9rem;
-    border: 4px solid blue;
-    width: 150px
+    border: 4px solid #094074;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500
 }
 .deployBtn {
     margin-right: 1rem;
@@ -122,7 +177,9 @@
     padding-right: 0.9rem;
     padding-left: 0.9rem;
     border: 4px solid lightblue;
-    width: 150px
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500
 }
 
 .deployBtn:hover {
@@ -140,7 +197,7 @@ margin-right: 5px;
 }
 
 .icons-container {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
@@ -155,6 +212,9 @@ margin-right: 5px;
 .icon {
     height: 30px;
     width: 40px;
+}
+.icon-label {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
