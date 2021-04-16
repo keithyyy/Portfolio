@@ -1,6 +1,7 @@
 import React from 'react'
 import Emoji from "../images/keithmoji.png"
 import Interests from "./Interests"
+import Skills from './Skills'
 
 const Profile = () => {
     return (
@@ -22,6 +23,11 @@ const Profile = () => {
                 </div>
 
             </div>
+
+            <div className="row">
+                <Skills />
+            </div>
+
             <div className="row">
                 <div className="col-md-12">
                     <h3 style={{marginBottom: "2rem", marginTop: "2rem"}}>I'm a...</h3>

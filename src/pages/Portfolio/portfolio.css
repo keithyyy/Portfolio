@@ -43,6 +43,25 @@
     margin-top: 1.5rem;
 }
 
+
+.skills-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 50px auto;
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    align-items: stretch;
+    box-shadow: 0 0 3px 4px rgba(0,0,0,0.03);
+    border-radius: 5px
+}
+
+.skills-title {
+    
+}
+
 .projects-section-header {
     text-align: center;
     margin-top: 5rem;
@@ -118,6 +137,24 @@ margin-right: 5px;
 
 .logos {
     margin-bottom: 3rem
+}
+
+.icons-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icons-container div{
+    text-align: center;
+    margin: auto 40px;
+}
+
+.icon {
+    height: 30px;
+    width: 40px;
 }
 
 
