@@ -50,9 +50,10 @@
     margin-bottom: 1.7rem
 }
 
-.about-me {
+.about-me-profile {
     font-family: 'Montserrat', sans-serif;
-    color: black
+    color: black;
+    font-size: 20px
 }
 
 .keith-emoji {

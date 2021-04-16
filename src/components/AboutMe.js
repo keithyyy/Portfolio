@@ -23,9 +23,9 @@ const AboutMe = () => {
                             <h1 className="greeting">Keith, that's me!</h1>
                         </div>
                         <div className="row">
-                            <p className="about-me">Earned a Bachelor of Commerce, majoring in Digital Business Management from Humber College. I had the opportunity to polish my marketing and user experience skills, which I also plan to highlight in my path as a web developer. I've successfully completed the Full-Stack Bootcamp at the University of Toronto to bring me up to speed.</p>
-                            
-                            <p className="about-me">I look forward to integrate further into the Tech industry by combining my experience in Web Development and Marketing to build great applications.</p>
+                            <p className="about-me">Earned a Bachelor of Commerce, majoring in Digital Business Management from Humber College. Shortly after, I learned to become a Full-Stack Developer through the Full-Stack Bootcamp at the University of Toronto.</p>
+                            <p className="about-me">I combine the opportunities of polishing my marketing and user experience skills through my Degree, together with the skills of building applications from scratch from the Bootcamp.</p>
+                            <p className="about-me">I look forward to being a part of this industry and making an impact by building great products.</p>
                         
                         </div>  
                         <div className="row">
