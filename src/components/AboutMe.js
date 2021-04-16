@@ -1,6 +1,7 @@
 import React from 'react'
 import HeadShot from '../images/HeadshotSQ.jpg';
 
+
 import { FaFilePdf } from 'react-icons/fa'
 import { SiGithub } from 'react-icons/si'
 import { MdMail } from 'react-icons/md'
@@ -42,7 +43,7 @@ const AboutMe = () => {
                 </div>
 
             </div>
-        
+            
 
         </div>
     )
