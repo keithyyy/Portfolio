@@ -5,6 +5,13 @@ import { FaReact, FaNodeJs,  } from 'react-icons/fa'
 import { SiHeroku, SiTravisci, SiBootstrap, SiMysql } from 'react-icons/si'
 
 
+const openGithub = () => {
+    window.open("https://github.com/keithyyy/WindowShoppin", '_blank').focus()
+}
+const openSite = () => {
+    window.open("https://window-shoppin.herokuapp.com/", '_blank').focus()
+}
+
 const WindowShop = () => {
     return (
         <div className="project-wrapper">
@@ -14,8 +21,8 @@ const WindowShop = () => {
                         <h3 className="project-title">WindowShoppin</h3>
                         <p className="project-description">Window Shoppin brings all your online shopping items into one place.</p>
                         <div className="button-holder">
-                            <button className="githubBtn">Github Repo</button>
-                            <button className="deployBtn">View Site</button>
+                            <button className="githubBtn" onClick={() => openGithub()}>Github Repo</button>
+                            <button className="deployBtn" onClick={() => openSite()}>View Site</button>
                         </div>
                         <div className="technologies">
                             <h6>Technologies</h6>

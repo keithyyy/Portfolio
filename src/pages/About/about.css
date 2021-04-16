@@ -1,6 +1,13 @@
 .about-jumbo {
-    margin-bottom: 3rem;
+    /* margin-bottom: 1rem; */
     padding-left: 15px;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.about-wrap {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .keith-headshot {
@@ -22,9 +29,13 @@
     padding-bottom: 0.7rem;
     padding-right: 0.9rem;
     padding-left: 0.9rem;
-    border: 4px solid #28a745;
+    border: 2px solid #28a745;
     width: 150px;
     color: #28a745;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px
     
 }
 
@@ -42,15 +53,20 @@
 
 
 .about-mail {
+    text-decoration: none;
     margin-right: 1rem;
     background-color: transparent;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     padding-right: 0.9rem;
     padding-left: 0.9rem;
-    border: 4px solid #63D1F4;
+    border: 2px solid #63D1F4;
     width: 150px;
     color: #63D1F4;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px
     
 }
 
@@ -71,10 +87,12 @@
     padding-bottom: 0.7rem;
     padding-right: 0.9rem;
     padding-left: 0.9rem;
-    border: 4px solid #DC143C;
+    border: 2px solid #DC143C;
     width: 150px;
     color: #DC143C;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px
 }
 
 .about-resume:hover {
@@ -88,6 +106,7 @@
 }
 
 .button-container {
+    padding-top: 40px;
     padding-bottom: 30px;
     text-align: center;
 }
