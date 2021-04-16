@@ -10,7 +10,7 @@ const Profile = () => {
 
                 <div className="col-md-6">
                     <div className="profile-spacing">
-                  <div className="row"><h1 className="greeting">Hey there, I'm Keith!</h1>
+                  <div className="row"><h1 className="greeting">Hey there, <span className="name">I'm Keith!</span></h1>
                   </div>
                   <div className="row"><p className="about-me">Earned a Bachelor of Commerce, majoring in Digital Business Management from Humber College. I had the opportunity to polish my marketing and user experience skills, which I also plan to highlight in my path as a web developer. Completed the Full-Stack Bootcamp at the University of Toronto to bring me up to speed.</p></div>  
                     </div>
