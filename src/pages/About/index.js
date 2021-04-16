@@ -1,10 +1,15 @@
 import React from 'react'
+import AboutMe from '../../components/AboutMe'
+import './about.css'
 
 const About = () => {
     return (
-        <div>
-            <h1>this is the about page</h1>
-        </div>
+        <div className="container">
+                
+                <AboutMe />
+                
+                
+            </div>
     )
 }
 
