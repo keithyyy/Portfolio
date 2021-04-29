@@ -15,11 +15,14 @@ const Portfolio = () => {
 
 
             
-                <h4 className="projects-section-header"><span style={{marginRight: "1rem"}}>⬇️</span>Check out my projects  <span style={{marginLeft: "1rem"}}>⬇️</span></h4>
+                <h4 className="projects-section-header"><span className="down-emoji" style={{marginRight: "1rem"}}>⬇️</span>Check out my projects  <span style={{marginLeft: "1rem"}}>⬇️</span></h4>
             </div>
             
             <MindShare />
+            <div className="row">
+                
             <WindowShop />
+            </div>
             <FromScratch />
 
         </>

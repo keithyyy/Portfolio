@@ -117,3 +117,17 @@
     padding-bottom: 30px;
     text-align: center;
 }
+
+@media screen and (max-width: 375px) {
+    .about-github {
+        width: 300px;
+        margin-bottom: -20px
+    }
+    .about-resume {
+        width: 300px
+    }
+    .about-mail {
+        width: 300px;
+        margin-bottom: -20px;
+    }
+}

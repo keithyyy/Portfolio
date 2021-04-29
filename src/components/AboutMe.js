@@ -29,21 +29,21 @@ const AboutMe = () => {
                         
                         </div>  
                         <div className="row">
-                            <div className="col-4">
+                            <div className="col-lg-4">
                                 <div className="text-center pb-4 mt-4">
                                     <form action="https://github.com/keithyyy/" method="get" target="_blank" style={{width: "30%"}}>
                                         <button className="about-github"><SiGithub className="github-icon" size={24}/><span className="btn-text">View Repo</span></button>
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-4">
+                            <div className="col-lg-4">
                                 <div className="text-center pb-4 mt-4"> 
                                     <form action="mailto:keith.crooc@gmail.com" target="_blank" style={{width: "30%"}}>
                                         <button className="about-mail"><MdMail className="mail-icon" size={24}/><span className="btn-text">Email</span></button>
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-4">
+                            <div className="col-lg-4">
 
                                 <div className="text-center pb-4 mt-4">
                                     <form action="../KeithCrooc-WebDevResume.pdf" target="_blank" style={{width: "30%"}}>
