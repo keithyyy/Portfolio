@@ -14,9 +14,10 @@ const openSite = () => {
 
 const WindowShop = () => {
     return (
-        <div className="project-wrapper">
+
+        <div className="project-wrapper-2">
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                     <div className="project-copy">
                         <h3 className="project-title">WindowShoppin</h3>
                         <p className="project-description">Window Shoppin brings all your online shopping items into one place.</p>
@@ -38,7 +39,7 @@ const WindowShop = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                     <img className="project-image" src={WindowShoppinSS}/>
                 </div>
             </div>
